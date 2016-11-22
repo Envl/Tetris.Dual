@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 默认 Theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--ActionBar的颜色-->
+        <item name="colorPrimary">#1E8CBE</item>
+        <!-- 随主题而改变的颜色（如CheckBox的颜色）-->
+        <item name="colorAccent">@color/accent</item>
+        <!--状态栏的颜色 （使用support包时似乎无效。）-->
+        <item name="colorPrimaryDark">#005684</item>
+
+        <!--ActionBar的样式-->
+        <item name="actionBarStyle">@style/AppTheme.ActionBarStyle</item>
+    </style>
+
+    <!-- Coffee Theme. -->
+    <style name="CoffeeTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--ActionBar的颜色-->
+        <item name="colorPrimary">#5c442b</item>
+        <!-- 随主题而改变的颜色（如CheckBox的颜色）-->
+        <item name="colorAccent">@color/accent</item>
+        <!--状态栏的颜色 （使用support包时似乎无效。）-->
+        <item name="colorPrimaryDark">#41301f</item>
+
+        <!--ActionBar的样式-->
+        <item name="actionBarStyle">@style/AppTheme.ActionBarStyle</item>
+    </style>
+
+    <!-- Wine Theme. -->
+    <style name="WineTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--ActionBar的颜色-->
+        <item name="colorPrimary">#9D524C</item>
+        <!-- 随主题而改变的颜色（如CheckBox的颜色）-->
+        <item name="colorAccent">@color/accent</item>
+        <!--状态栏的颜色 （使用support包时似乎无效。）-->
+        <item name="colorPrimaryDark">#96443E</item>
+
+        <!--ActionBar的样式-->
+        <item name="actionBarStyle">@style/AppTheme.ActionBarStyle</item>
+    </style>
+
+    <style name="AppTheme.ActionBarStyle" parent="android:Widget.ActionBar">
+        <item name="android:background">@drawable/transparentbg</item>
+        <item name="android:titleTextStyle">@style/AppTheme.ActionBar.TitleTextStyle</item>
+    </style>
+
+    <style name="AppTheme.ActionBar.TitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <!--ActionBar标题文字颜色-->
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

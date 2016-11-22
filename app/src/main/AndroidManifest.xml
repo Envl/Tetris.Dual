@@ -1,0 +1,38 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yaoooo.brandnewtetris">
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+
+    <application android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/icon_redline"
+        android:theme="@style/AppTheme"
+        android:name=".MyApp">
+
+        <activity android:name=".WelcomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".GameActivity"
+            android:label="Game"
+            android:screenOrientation="portrait"
+            >
+
+        </activity>
+
+        <activity android:name=".DeviceListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="选择一个设备以连接"
+            android:theme="@style/Theme.AppCompat.Dialog"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

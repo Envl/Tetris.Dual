@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="orange_pressed">@android:color/holo_orange_dark</color>
+    <color name="orange_normal">@android:color/holo_orange_light</color>
+    <color name="blue_pressed">#005684</color>
+    <color name="blue_normal">#78C8E6</color>
+    <color name="primary">#36A3CA</color>
+    <color name="primary_dark">#1E8CBE</color>
+    <color name="accent">#F5851F</color>
+    <color name="wine_pressed">#A9554F</color>
+    <color name="wine_normal">#E78D87</color>
+    <color name="coffee_pressed">#42210B</color>
+    <color name="coffee_normal">#8C6239</color>
+
+</resources>
